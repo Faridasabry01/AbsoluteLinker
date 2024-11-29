@@ -1,0 +1,109 @@
+#include <iostream>
+#include <fstream>
+#include <bits/stdc++.h>
+//#include "codes1.h"
+
+//--------------------------------------------------------------------
+//--------------------------------------------------------------------
+string binToHex(string x)
+{
+    string h="";
+  int hex[1000];
+  int i = 1, j = 0, rem, dec = 0, binaryNumber=stoi(x);
+  while (binaryNumber > 0)
+  {
+    rem = binaryNumber % 2;
+    dec = dec + rem * i;
+    i = i * 2;
+    binaryNumber = binaryNumber / 10;
+  }
+    i = 0;
+  while (dec != 0)
+  {
+    hex[i] = dec % 16;
+    dec = dec / 16;
+    i++;
+  }
+
+  for (j = i - 1; j >= 0; j--)
+  {
+    if (hex[j] > 9)
+      h+= (char)(hex[j] + 55);
+    else
+      h+= hex[j];
+  }
+return h;
+}
+
+//--------------------------------------------------------------------
+//--------------------------------------------------------------------
+string hexaToBinary(string x){
+string b="";
+int i=0;
+while(x[i])
+{
+    switch(x[i])
+    {
+    case '0':
+        b+="0000";
+        break;
+    case '1':
+        b+="0001";
+        break;
+    case '2':
+        b+="0010";
+        break;
+    case '3':
+        b+="0011";
+        break;
+    case '4':
+        b+="0100";
+        break;
+    case '5':
+        b+="0101";
+        break;
+    case '6':
+        b+="0110";
+        break;
+    case '7':
+        b+="0111";
+        break;
+    case '8':
+        b+="1000";
+        break;
+    case '9':
+        b+="1001";
+        break;
+    case 'A':
+    case 'a':
+        b+="1010";
+        break;
+    case 'B':
+    case 'b':
+        b+="1011";
+        break;
+    case 'C':
+    case 'c':
+        b+="1100";
+        break;
+    case 'D':
+    case 'd':
+        b+="1101";
+        break;
+    case 'E':
+    case 'e':
+        b+="1110";
+        break;
+    case 'F':
+    case 'f':
+        b+="1111";
+        break;
+    default:
+        return "invalid";
+    }
+    i++;
+}
+return b;
+}
+//--------------------------------------------------------------------
+//--------------------------------------------------------------------

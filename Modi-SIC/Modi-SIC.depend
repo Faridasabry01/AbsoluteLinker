@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1669000493 source:c:\users\ferfe\desktop\modi-sic\main.cpp
+	<iostream>
+	<fstream>
+	<bits/stdc++.h>
+	"codes1.h"
+	"codes2.h"
+	"codes3.h"
+
+1668726139 c:\users\ferfe\desktop\modi-sic\opcode.cpp
+	<bits/stdc++.h>
+
+1668905319 c:\users\ferfe\desktop\modi-sic\parsefile.cpp
+	<iostream>
+	"opcode.cpp"
+	<fstream>
+
+1668904939 source:c:\users\ferfe\desktop\modi-sic\hextobinary.cpp
+	<iostream>
+	<bits/stdc++.h>
+
+1668907887 source:c:\users\ferfe\desktop\modi-sic\binarytohexa.cpp
+	<iostream>
+
+1668907864 c:\users\ferfe\desktop\modi-sic\binarytohexa.cpp
+	<iostream>
+
+1668920443 source:c:\users\ferfe\desktop\modi-sic\binary.cpp
+	<bits/stdc++.h>
+	<iostream>
+
+1669002500 c:\users\ferfe\desktop\modi-sic\codes1.h
+	<iostream>
+	<fstream>
+	<bits/stdc++.h>
+
+1669002890 c:\users\ferfe\desktop\modi-sic\codes2.h
+	<iostream>
+	<fstream>
+	<bits/stdc++.h>
+
+1669001770 c:\users\ferfe\desktop\modi-sic\codes3.h
+	<iostream>
+	<fstream>
+	<bits/stdc++.h>
+
