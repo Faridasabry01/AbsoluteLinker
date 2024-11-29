@@ -1,4 +1,4 @@
-# AbsoluteLinker
+# Two Pass Assembler
 ### Modi-SIC Assembler
 
 This repository contains a simulation of an assembler for the **Modified Simple Instruction Computer (Modi-SIC)**. It processes Modi-SIC assembly code and generates intermediate files, symbol tables, object code, and HTE records.
